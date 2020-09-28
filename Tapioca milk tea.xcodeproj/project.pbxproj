@@ -16,6 +16,8 @@
 		53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F05E4422F3228C009E3AA8 /* OrderEntity.swift */; };
 		53F05E4722F326FF009E3AA8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F05E4622F326FF009E3AA8 /* Data.swift */; };
 		53F05E4922F3275A009E3AA8 /* orderEntity.json in Resources */ = {isa = PBXBuildFile; fileRef = 53F05E4822F3275A009E3AA8 /* orderEntity.json */; };
+		C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E324F434A500708C40 /* OrderDetail.swift */; };
+		C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		53F05E4422F3228C009E3AA8 /* OrderEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntity.swift; sourceTree = "<group>"; };
 		53F05E4622F326FF009E3AA8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Data.swift; path = "Tapioca milk tea/Data/Data.swift"; sourceTree = SOURCE_ROOT; };
 		53F05E4822F3275A009E3AA8 /* orderEntity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orderEntity.json; sourceTree = "<group>"; };
+		C6B5E7E324F434A500708C40 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		53BB725922E1C33C00AA7546 = {
 			isa = PBXGroup;
 			children = (
+				C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */,
+				C6B5E7E324F434A500708C40 /* OrderDetail.swift */,
 				53BB726422E1C33C00AA7546 /* Tapioca milk tea */,
 				53BB726322E1C33C00AA7546 /* Products */,
 			);
@@ -167,7 +173,9 @@
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
+				C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */,
 				53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */,
+				C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */,
 				53F05E4722F326FF009E3AA8 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
