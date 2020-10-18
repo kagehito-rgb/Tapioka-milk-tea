@@ -19,15 +19,37 @@ struct OrderDetail: View {
 
     var body: some View {
         VStack {
+            HStack {
+                Spacer()
+                Text("Favorite")
+                if order.favorite {
+                    Image(systemName: "heart.circle.fill")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                        .foregroundColor(.pink)
+                } else {
+                    Image(systemName: "heart.circle")
+                        .resizable()
+                    .frame(width: 30, height: 30)
+                        .foregroundColor(.gray)
+                }
+            }.padding()
+
+            Image("tapioca_preview")
+
             Text(order.flavorName)
                 .font(.title)
+
             if order.nataDeCoco {
                 Text("Nata de coco")
             }
+
             if order.iceCream != 0 {
                 Text(order.iceCreamName)
             }
+
             Text(order.other)
+
             Text(self.dateFormatter.string(from: order.date))
                 .font(.caption)
         }
