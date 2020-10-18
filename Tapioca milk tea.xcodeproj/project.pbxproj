@@ -18,6 +18,7 @@
 		53F05E4922F3275A009E3AA8 /* orderEntity.json in Resources */ = {isa = PBXBuildFile; fileRef = 53F05E4822F3275A009E3AA8 /* orderEntity.json */; };
 		C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E324F434A500708C40 /* OrderDetail.swift */; };
 		C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */; };
+		C6FFE14A253C168500488118 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFE149253C168500488118 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		53F05E4822F3275A009E3AA8 /* orderEntity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orderEntity.json; sourceTree = "<group>"; };
 		C6B5E7E324F434A500708C40 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
 		C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		C6FFE149253C168500488118 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			children = (
 				C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */,
 				C6B5E7E324F434A500708C40 /* OrderDetail.swift */,
+				C6FFE149253C168500488118 /* OrderView.swift */,
 				53BB726422E1C33C00AA7546 /* Tapioca milk tea */,
 				53BB726322E1C33C00AA7546 /* Products */,
 			);
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
+				C6FFE14A253C168500488118 /* OrderView.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
 				C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */,
