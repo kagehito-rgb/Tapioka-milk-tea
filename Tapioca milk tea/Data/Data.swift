@@ -3,7 +3,14 @@ import Foundation
 struct OrderStore {
     let orders: [OrderEntity] = load("orderEntity.json")
 }
+
+struct DataStore {
+    let specials: [Special] = load("special.json")
+    let shops:[Shop] = load("shop.json")
+}
+
 let orderStore = OrderStore()
+let dataStore = DataStore()
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

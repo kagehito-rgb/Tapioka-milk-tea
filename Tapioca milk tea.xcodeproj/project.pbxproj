@@ -16,9 +16,17 @@
 		53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F05E4422F3228C009E3AA8 /* OrderEntity.swift */; };
 		53F05E4722F326FF009E3AA8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F05E4622F326FF009E3AA8 /* Data.swift */; };
 		53F05E4922F3275A009E3AA8 /* orderEntity.json in Resources */ = {isa = PBXBuildFile; fileRef = 53F05E4822F3275A009E3AA8 /* orderEntity.json */; };
+		C601FAFC253DCAE200E38217 /* ShopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FAFB253DCAE200E38217 /* ShopRow.swift */; };
+		C601FAFE253DD0C000E38217 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FAFD253DD0C000E38217 /* CategoryRow.swift */; };
+		C601FB00253DD23400E38217 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FAFF253DD23400E38217 /* HomeView.swift */; };
+		C669B14C253D8F2F009DC8CE /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669B14B253D8F2F009DC8CE /* Special.swift */; };
 		C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E324F434A500708C40 /* OrderDetail.swift */; };
 		C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */; };
 		C6FFE14A253C168500488118 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFE149253C168500488118 /* OrderView.swift */; };
+		C6FFE14C253CABDE00488118 /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFE14B253CABDE00488118 /* OrderHistoryView.swift */; };
+		C6FFE14E253CAE5100488118 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFE14D253CAE5100488118 /* Shop.swift */; };
+		C6FFE150253CAE5B00488118 /* shop.json in Resources */ = {isa = PBXBuildFile; fileRef = C6FFE14F253CAE5B00488118 /* shop.json */; };
+		C6FFE152253CAE6D00488118 /* special.json in Resources */ = {isa = PBXBuildFile; fileRef = C6FFE151253CAE6D00488118 /* special.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +41,17 @@
 		53F05E4422F3228C009E3AA8 /* OrderEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntity.swift; sourceTree = "<group>"; };
 		53F05E4622F326FF009E3AA8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Data.swift; path = "Tapioca milk tea/Data/Data.swift"; sourceTree = SOURCE_ROOT; };
 		53F05E4822F3275A009E3AA8 /* orderEntity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orderEntity.json; sourceTree = "<group>"; };
+		C601FAFB253DCAE200E38217 /* ShopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRow.swift; sourceTree = "<group>"; };
+		C601FAFD253DD0C000E38217 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		C601FAFF253DD23400E38217 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C669B14B253D8F2F009DC8CE /* Special.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
 		C6B5E7E324F434A500708C40 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
 		C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		C6FFE149253C168500488118 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C6FFE14B253CABDE00488118 /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
+		C6FFE14D253CAE5100488118 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop.swift; path = "../../../../../Downloads/swiftui-sample-code2019-11-25/Chapter05/StartingPoint/Tapioca milk tea/Tapioca milk tea/Data/Shop.swift"; sourceTree = "<group>"; };
+		C6FFE14F253CAE5B00488118 /* shop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shop.json; path = "../../../../../Downloads/swiftui-sample-code2019-11-25/Chapter05/StartingPoint/Tapioca milk tea/Tapioca milk tea/Data/shop.json"; sourceTree = "<group>"; };
+		C6FFE151253CAE6D00488118 /* special.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = special.json; path = "../../../../../Downloads/swiftui-sample-code2019-11-25/Chapter05/StartingPoint/Tapioca milk tea/Tapioca milk tea/Data/special.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,10 @@
 		53BB725922E1C33C00AA7546 = {
 			isa = PBXGroup;
 			children = (
+				C601FAFF253DD23400E38217 /* HomeView.swift */,
+				C601FAFD253DD0C000E38217 /* CategoryRow.swift */,
+				C601FAFB253DCAE200E38217 /* ShopRow.swift */,
+				C6FFE14B253CABDE00488118 /* OrderHistoryView.swift */,
 				C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */,
 				C6B5E7E324F434A500708C40 /* OrderDetail.swift */,
 				C6FFE149253C168500488118 /* OrderView.swift */,
@@ -94,9 +114,13 @@
 		53F05E4A22F3C5A1009E3AA8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C6FFE151253CAE6D00488118 /* special.json */,
+				C6FFE14F253CAE5B00488118 /* shop.json */,
+				C6FFE14D253CAE5100488118 /* Shop.swift */,
 				53F05E4622F326FF009E3AA8 /* Data.swift */,
 				53F05E4822F3275A009E3AA8 /* orderEntity.json */,
 				53F05E4422F3228C009E3AA8 /* OrderEntity.swift */,
+				C669B14B253D8F2F009DC8CE /* Special.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -159,8 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FFE150253CAE5B00488118 /* shop.json in Resources */,
 				53BB727522E1C33E00AA7546 /* LaunchScreen.storyboard in Resources */,
 				53F05E4922F3275A009E3AA8 /* orderEntity.json in Resources */,
+				C6FFE152253CAE6D00488118 /* special.json in Resources */,
 				53BB727222E1C33E00AA7546 /* Preview Assets.xcassets in Resources */,
 				53BB726F22E1C33E00AA7546 /* Assets.xcassets in Resources */,
 			);
@@ -174,12 +200,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BB726622E1C33C00AA7546 /* AppDelegate.swift in Sources */,
+				C601FB00253DD23400E38217 /* HomeView.swift in Sources */,
 				C6FFE14A253C168500488118 /* OrderView.swift in Sources */,
+				C601FAFC253DCAE200E38217 /* ShopRow.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
+				C6FFE14E253CAE5100488118 /* Shop.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
+				C601FAFE253DD0C000E38217 /* CategoryRow.swift in Sources */,
+				C6FFE14C253CABDE00488118 /* OrderHistoryView.swift in Sources */,
 				C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */,
 				53BB726822E1C33C00AA7546 /* SceneDelegate.swift in Sources */,
 				C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */,
+				C669B14C253D8F2F009DC8CE /* Special.swift in Sources */,
 				53F05E4722F326FF009E3AA8 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
