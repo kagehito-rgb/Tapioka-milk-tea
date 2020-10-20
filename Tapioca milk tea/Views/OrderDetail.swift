@@ -35,7 +35,10 @@ struct OrderDetail: View {
                 }
             }.padding()
 
-            Image("tapioca_preview")
+            TapiocaTeaView(iceCream: Int(order.iceCream),
+                           flavor: Int(order.flavor),
+                           nataDeCoco: order.nataDeCoco)
+                .frame(width: 350, height: 350)
 
             Text(order.flavorName)
                 .font(.title)

@@ -19,9 +19,11 @@ struct OrderRowView: View {
 
     var body: some View {
         HStack {
-            Image("tapioca_preview")
-                .resizable()
+            TapiocaTeaView(iceCream: Int(order.iceCream),
+                           flavor: Int(order.flavor),
+                           nataDeCoco: order.nataDeCoco)
                 .frame(width: 70, height: 70)
+
             VStack(alignment: .leading) {
                 Text(order.flavorName).font(.title).lineLimit(1)
                 Spacer()
