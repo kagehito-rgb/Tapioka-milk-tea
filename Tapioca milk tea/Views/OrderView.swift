@@ -19,47 +19,52 @@ struct OrderView: View {
     @State private var quantity = 1
     /// その他のメッセージ
     @State private var other = ""
-
+    
     var body: some View {
-        VStack {
+        ScrollView {
+            VStack {
 
-            Image("tapioca_preview")
+                TapiocaTeaView(iceCream: Int(order.iceCream),
+                               flavor: Int(order.flavor),
+                               nataDeCoco: order.nataDeCoco)
+                    .frame(width: 350, height: 350)
 
-            HStack {
-                Text("Select flavor")
-                Picker(selection: $flavor,
-                       label: Text("Select flavor")) {
+                HStack {
+                    Text("Select flavor")
+                    Picker(selection: $flavor,
+                           label: Text("Select flavor")) {
                         ForEach(0..<flavorArray.count) {
                             Text(flavorArray[$0])
                         }
-                }.labelsHidden()
+                    }.labelsHidden()
                     .frame(minWidth: 250, minHeight: 50)
                     .clipped()
-            }
-
-            Toggle(isOn: $nataDeCoco) {
-                Text("Nata de coco topping")
-            }
-
-            Picker(selection: $iceCream, label: Text("Ice cream topping")) {
-                ForEach(0..<iceCreamArray.count) {
-                    Text(iceCreamArray[$0])
                 }
-            }.pickerStyle(SegmentedPickerStyle())
 
-            Stepper(value: $quantity, in: 1...10) {
-                Text("Quantity : \(quantity)")
-            }
+                Toggle(isOn: $nataDeCoco) {
+                    Text("Nata de coco topping")
+                }
 
-            TextField("Other request", text: $other)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+                Picker(selection: $iceCream, label: Text("Ice cream topping")) {
+                    ForEach(0..<iceCreamArray.count) {
+                        Text(iceCreamArray[$0])
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
 
-            Divider()
+                Stepper(value: $quantity, in: 1...10) {
+                    Text("Quantity : \(quantity)")
+                }
 
-            Button(action: {}) {
-                Text("Order")
-            }
-        }.padding()
+                TextField("Other request", text: $other)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+
+                Divider()
+
+                Button(action: {}) {
+                    Text("Order")
+                }
+            }.padding()
+        }
     }
 }
 
