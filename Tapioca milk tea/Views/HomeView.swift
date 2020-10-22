@@ -19,14 +19,17 @@ struct HomeView: View {
     }
 
     var body: some View {
-        ScrollView {
-            ShopRow(shops: dataStore.shops)
+        NavigationView {
+            ScrollView {
+                ShopRow(shops: dataStore.shops)
 
-            ForEach(categories.keys.sorted(),
-                    id: \.self) { key in
-                CategoryRow(categoryName: key,
-                         items: self.categories[key]!)
+                ForEach(categories.keys.sorted(),
+                        id: \.self) { key in
+                    CategoryRow(categoryName: key,
+                                items: self.categories[key]!)
+                }
             }
+            .navigationBarTitle(Text("Home"))
         }
     }
 }

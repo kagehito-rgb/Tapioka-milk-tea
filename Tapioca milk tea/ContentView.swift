@@ -3,7 +3,23 @@ import SwiftUI
 struct ContentView : View {
     
     var body: some View {
-        OrderView()
+        TabView {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+            OrderView()
+                .tabItem {
+                    Image(systemName: "textbox")
+                    Text("ORDER")
+                }
+            OrderHistoryView()
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("LIST")
+                }
+        }
     }
 }
 

@@ -20,6 +20,8 @@
 		C601FAFE253DD0C000E38217 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FAFD253DD0C000E38217 /* CategoryRow.swift */; };
 		C601FB00253DD23400E38217 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FAFF253DD23400E38217 /* HomeView.swift */; };
 		C601FB03253F2B5B00E38217 /* TapiocaTeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FB02253F2B5B00E38217 /* TapiocaTeaView.swift */; };
+		C601FB052540B0C600E38217 /* ShopImge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FB042540B0C600E38217 /* ShopImge.swift */; };
+		C601FB072540B25C00E38217 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601FB062540B25C00E38217 /* ShopView.swift */; };
 		C669B14C253D8F2F009DC8CE /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669B14B253D8F2F009DC8CE /* Special.swift */; };
 		C6B5E7E424F434A500708C40 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E324F434A500708C40 /* OrderDetail.swift */; };
 		C6B5E7E824FCB81B00708C40 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */; };
@@ -46,6 +48,8 @@
 		C601FAFD253DD0C000E38217 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C601FAFF253DD23400E38217 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C601FB02253F2B5B00E38217 /* TapiocaTeaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapiocaTeaView.swift; sourceTree = "<group>"; };
+		C601FB042540B0C600E38217 /* ShopImge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopImge.swift; sourceTree = "<group>"; };
+		C601FB062540B25C00E38217 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		C669B14B253D8F2F009DC8CE /* Special.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
 		C6B5E7E324F434A500708C40 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
 		C6B5E7E724FCB81B00708C40 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				C6B5E7E324F434A500708C40 /* OrderDetail.swift */,
 				C6FFE149253C168500488118 /* OrderView.swift */,
 				C601FB02253F2B5B00E38217 /* TapiocaTeaView.swift */,
+				C601FB042540B0C600E38217 /* ShopImge.swift */,
+				C601FB062540B25C00E38217 /* ShopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 				C6FFE14A253C168500488118 /* OrderView.swift in Sources */,
 				C601FAFC253DCAE200E38217 /* ShopRow.swift in Sources */,
 				53F05E4522F3228C009E3AA8 /* OrderEntity.swift in Sources */,
+				C601FB052540B0C600E38217 /* ShopImge.swift in Sources */,
+				C601FB072540B25C00E38217 /* ShopView.swift in Sources */,
 				C6FFE14E253CAE5100488118 /* Shop.swift in Sources */,
 				53BB726D22E1C33C00AA7546 /* ContentView.swift in Sources */,
 				C601FAFE253DD0C000E38217 /* CategoryRow.swift in Sources */,
