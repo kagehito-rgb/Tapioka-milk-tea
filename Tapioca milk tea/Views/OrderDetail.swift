@@ -56,6 +56,7 @@ struct OrderDetail: View {
             Text(self.dateFormatter.string(from: order.date))
                 .font(.caption)
         }
+        .navigationBarTitle("Order Detail")
     }
 }
 

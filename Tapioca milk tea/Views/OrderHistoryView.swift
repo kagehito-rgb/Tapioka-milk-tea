@@ -9,11 +9,25 @@
 import SwiftUI
 
 struct OrderHistoryView: View {
+    @State var showFavoritesOnly = false
+
     var body: some View {
-        List {
-            ForEach(orderStore.orders) { order in
-                OrderRowView(order: order)
+        NavigationView {
+            List {
+                Toggle(isOn: $showFavoritesOnly, label: {
+                    Text("Favorites only")
+                })
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+
+                ForEach(orderStore.orders) { order in
+                    if !self.showFavoritesOnly || order.favorite {
+                        NavigationLink(destination: OrderDetail(order: order)) {
+                            OrderRowView(order: order)
+                        }
+                    }
+                }
             }
+            .navigationBarTitle("Order List")
         }
     }
 }

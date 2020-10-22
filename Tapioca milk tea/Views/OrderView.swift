@@ -24,9 +24,9 @@ struct OrderView: View {
         ScrollView {
             VStack {
 
-                TapiocaTeaView(iceCream: Int(order.iceCream),
-                               flavor: Int(order.flavor),
-                               nataDeCoco: order.nataDeCoco)
+                TapiocaTeaView(iceCream: Int(iceCream),
+                               flavor: Int(flavor),
+                               nataDeCoco: nataDeCoco)
                     .frame(width: 350, height: 350)
 
                 HStack {
