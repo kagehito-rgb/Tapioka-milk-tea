@@ -19,6 +19,9 @@ struct OrderView: View {
     @State private var quantity = 1
     /// その他のメッセージ
     @State private var other = ""
+
+    @State private var toSave = false
+    @State private var isSaved = false
     
     var body: some View {
         ScrollView {
@@ -60,11 +63,45 @@ struct OrderView: View {
 
                 Divider()
 
-                Button(action: {}) {
+                Button(action: {
+                    self.toSave = true
+                }) {
                     Text("Order")
                 }
             }.padding()
+
+            Spacer().alert(isPresented: $toSave) {
+                Alert(
+                    title: Text("Message"),
+                    message: Text("Save?"),
+                    primaryButton:.default(Text("Yes"), action: {
+                        self.save()
+                    }),
+                    secondaryButton: .cancel(Text("cancel")))
+            }
+
+            Spacer().alert(isPresented: $isSaved) {
+                Alert(
+                    title: Text("Message"),
+                    message: Text("The order was saved successfully."),
+                    dismissButton: .default(Text("OK")))
+            }
         }
+    }
+
+    private func save() {
+        DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
+            self.isSaved = true
+            self.clear()
+        })
+    }
+
+    private func clear() {
+        flavor = 0
+        nataDeCoco = false
+        iceCream = 0
+        quantity = 1
+        other = ""
     }
 }
 
