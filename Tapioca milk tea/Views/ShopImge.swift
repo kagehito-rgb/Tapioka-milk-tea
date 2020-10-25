@@ -28,6 +28,7 @@ struct ShopImage: View {
             .frame(width: 250, height: 250)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             .overlay(Circle().stroke(linear, lineWidth: 13))
+            .shadow(radius: 5, x: 0, y: 5)
     }
 }
 
